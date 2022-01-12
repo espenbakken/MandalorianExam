@@ -1,0 +1,140 @@
+.NavBar-Container {
+  height: 4rem;
+  text-align: center;
+  position: relative;
+}
+
+#Nav-Title {
+  font-family: mandalore;
+  font-size: 4rem;
+  padding-right: 7rem;
+  padding-left: 7rem;
+}
+
+#Nav-Home {
+  font-family: mandaloretitle;
+  position: relative;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: 4.5rem;
+}
+
+.Nav-Links {
+  padding-left: 0rem;
+  padding-right: 2rem;
+}
+
+.Nav-Links:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e6000f, 0 0 20px #e6000f,
+    0 0 25px #e6000f, 0 0 30px #e6000f, 0 0 35px #e6000f;
+}
+
+.Nav-Links:active {
+  color: green;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px green, 0 0 20px green,
+    0 0 25px green, 0 0 30px green, 0 0 35px green;
+}
+
+.Nav-Links:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 2rem;
+  left: 0;
+  background-color: #e6000fca;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.Nav-Links:active:after{
+    background-color: green;
+}
+
+.Nav-Links:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#Nav-Characters {
+  font-family: mandaloretitle;
+  position: relative;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#Nav-Home:active{
+  color: green;
+}
+
+#Nav-Characters:active{
+  color: green;
+}
+
+#Nav-Title:active{
+  
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px green, 0 0 20px green,
+    0 0 25px green, 0 0 30px green, 0 0 35px green;
+}
+
+#Nav-DropDown:active{
+  color: green;
+}
+
+#Nav-S1:active{
+  color: green;
+}
+#Nav-S2:active{
+  color: green;
+}
+
+#Nav-Actors:active{
+  color: green;
+}
+
+#Nav-DropDown {
+  font-family: mandaloretitle;
+  position: relative;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-right: 0rem;
+}
+
+.dropdown-menu.show {
+  background-color: rgb(34, 37, 41);
+}
+
+#Nav-S1 {
+  font-family: mandaloretitle;
+  color: white;
+  background-color: rgb(34, 37, 41);
+}
+
+#Nav-S1:hover {
+  background-color: rgb(49, 51, 53);
+}
+
+#Nav-S2 {
+  font-family: mandaloretitle;
+  color: white;
+  background-color: rgb(34, 37, 41);
+}
+
+#Nav-S2:hover {
+  background-color: rgb(49, 51, 53);
+}
+
+#Nav-Actors {
+  font-family: mandaloretitle;
+  position: relative;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}

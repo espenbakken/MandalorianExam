@@ -1,0 +1,157 @@
+.Modal {
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: rgb(34, 37, 41, 0.6);
+  padding: 10px;
+  text-align: center;
+}
+.Modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.Modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.Modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.Modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #cfcece;
+}
+
+.popup-content {
+  margin: auto;
+  background-color: rgb(34, 37, 41, 0.6);
+  border-radius: 5px;
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #d7d7d7;
+  color: white;
+}
+
+[role="tooltip"].popup-content {
+  width: 200px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.61);
+  border-radius: 5px;
+}
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+[data-popup="tooltip"].popup-overlay {
+  background: transparent;
+}
+.popup-arrow {
+  -webkit-filter: drop-shadow(0 -3px 3px rgba(0, 0, 0, 0.16));
+  filter: drop-shadow(0 -3px 3px rgba(0, 0, 0, 0.589));
+  color: #fff;
+  stroke-width: 2px;
+  stroke: #d7d7d7;
+  stroke-dasharray: 30px;
+  stroke-dashoffset: -54px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#container {
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  background-color: rgb(34, 37, 41, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.61);
+  color: white;
+  margin-bottom: 100px;
+}
+
+#form {
+  padding-left: 30%;
+}
+
+h5 {
+  font-family: mandalore;
+}
+
+#form label {
+  font-family: mandalore;
+}
+
+#form input {
+  margin-bottom: 20px;
+}
+
+.episodeImg {
+  border-radius: 100px;
+}
+
+.button {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: mandalore;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(34, 37, 41, 1);
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px rgba(230, 0, 15, 0.5);
+}
+
+.button:active {
+  background-color: rgb(34, 37, 41, 1);
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px rgba(49, 189, 7, 0.5);
+}
+
+.text {
+  background-color: rgb(34, 37, 41, 1);
+  border-radius: 5px;
+  line-height: 30px;
+  text-align: left;
+}
+
+#form label {
+  font-family: mandalore;
+}
+
+#form input {
+  margin-bottom: 20px;
+}
+
+.comment-input {
+  height: 5rem;
+  width: 80%;
+}
+.comment-submit {
+  height: 5rem;
+  position: relative;
+  right: 2.2rem;
+}
+
+#delete-episode{
+  padding-top: 30px;
+  text-align: center;
+}

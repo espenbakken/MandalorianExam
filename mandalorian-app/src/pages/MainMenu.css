@@ -1,0 +1,84 @@
+.carousel-container {
+  width: 100%;
+}
+
+.MainMenu-Container {
+  font-family: mandalore;
+}
+
+.info-container {
+  justify-content: right;
+  display: inline-block;
+  position: relative;
+  height: 100rem;
+}
+
+.info-box-1 {
+  background-color: rgb(34, 37, 41);
+  height: 20rem;
+  width: 50rem;
+  display: inline-block;
+  margin: 2rem;
+  margin-top: 8rem;
+  position: absolute;
+  left: -15rem;
+  text-align: center;
+}
+
+.h1-box1 {
+  text-align: center;
+  position: relative;
+}
+
+.image-box1 {
+  float: left;
+  height: 100%;
+}
+
+.text-box1 {
+  float: right;
+  position: relative;
+  padding-right: 1rem;
+  padding-left: 4rem;
+  width: 30rem;
+  bottom: 18rem;
+  font-size: 1rem;
+}
+
+.text-box1 {
+  float: right;
+}
+
+.info-box-1:hover {
+  box-shadow: 5px 5px 30px #e6000fca;
+}
+
+.info-box-2 {
+  background-color: rgb(34, 37, 41);
+  height: 20rem;
+  width: 50rem;
+  display: inline-block;
+  margin: 2rem;
+  margin-top: 8rem;
+  position: absolute;
+  left: 45rem;
+  padding-top: 0;
+}
+
+.info-box-2:hover {
+  box-shadow: 5px 5px 30px #e6000fca;
+}
+
+.info-box-2 {
+  float: right;
+}
+
+.image-box2 {
+  float: left;
+  height: 100%;
+  width: 60%;
+}
+
+.text-box2 {
+  padding-top: 2rem;
+}

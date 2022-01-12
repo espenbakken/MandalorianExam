@@ -1,0 +1,14 @@
+/* For å få review på fontene så kan du gå inn her
+https://www.dafont.com/mandalore.font
+*/
+
+@font-face {
+  font-family: "mandalore";
+  src: local("./fonts/mandalore-font/mandalore.ttf"),
+    url("./fonts/mandalore-font/mandalore.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "mandaloretitle";
+  src: local("./fonts/mandalore-font/mandaloretitle.ttf"),
+    url("./fonts/mandalore-font/mandaloretitle.ttf") format("TrueType");
+}

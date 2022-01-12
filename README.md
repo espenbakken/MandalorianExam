@@ -1,6 +1,8 @@
-# Eksamen Webutvikling 3 (PGR305)
+**_Our exam in the course Webdevelopment 3. In this exam we showed what we had learned this semester by creating a Fullstack-application. We have been working with both the Backend and the Frontend part of this application._**
 
 ## The Mandalorian Project
+
+## Eksamen Webutvikling 3 (PGR305)
 
 <br/>
 
